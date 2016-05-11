@@ -1407,6 +1407,11 @@
               {
                 "thumb": "@PROJECT_PATH@/assets/images/dscn3048-3569x2423-94-2000x1358-81.jpg",
                 "image": "@PROJECT_PATH@/assets/images/dscn3048-3569x2423-94.jpg",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/13177122-10209961973277088-6239293176087427327-n-456x538-11-456x538-16.jpg",
+                "image": "@PROJECT_PATH@/assets/images/13177122-10209961973277088-6239293176087427327-n-456x538-11.jpg",
                 "active": true
               }
             ],
