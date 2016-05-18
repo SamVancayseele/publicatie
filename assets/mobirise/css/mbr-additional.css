@@ -17,6 +17,9 @@
 #menu-0 .mbr-brand__name a {
   font-size: 36px;
 }
+#menu-0 .mbr-navbar__hamburger {
+  color: #ffffff;
+}
 #content5-7 .mbr-header .mbr-header__text {
   text-align: center;
   color: #000000;

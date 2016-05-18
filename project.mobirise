@@ -7,7 +7,10 @@
     "favicon": "@PROJECT_PATH@/assets/images/13177122-10209961973277088-6239293176087427327-n-456x538-11-456x538-33.jpg",
     "google-analytics": "<script>\r\n  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){\r\n  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),\r\n  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)\r\n  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');\r\n\r\n  ga('create', 'UA-77528690-1', 'auto');\r\n  ga('send', 'pageview');\r\n\r\n</script>",
     "publishType": "local",
-    "publishPath": "file:///C:/Users/sam/Documents/GitHub/publicatie"
+    "publishPath": "file:///C:/Users/sam/Documents/GitHub/publicatie",
+    "path": "file:///C:/Users/sam/Pictures/School/website%20in%20gebruik%20(nederlands)",
+    "screenshot": "screenshot.png",
+    "cookiesAlert": "<h1>Cookie Policy for Sam Vancayseele</h1><br>\r\n<h2>What Are Cookies</h2><br>\r\nAs is common practice with almost all professional websites this site uses cookies, which are tiny files that are downloaded to your computer, to improve your experience. This page describes what information they gather, how we use it and why we sometimes need to store these cookies. We will also share how you can prevent these cookies from being stored however this may downgrade or 'break' certain elements of the sites functionality.<br>\r\n<br>\r\nFor more general information on cookies see the <a href=\"http://en.wikipedia.org/wiki/HTTP_cookie\" target=\"_blank\" data-saferedirecturl=\"https://www.google.com/url?hl=nl&q=http://en.wikipedia.org/wiki/HTTP_cookie&source=gmail&ust=1463665400434000&usg=AFQjCNEjAjUqdYT7dzltq6NgnaSoYnkArA\">Wikipedia article on HTTP Cookies...</a><br>\r\n<h2>How We Use Cookies</h2><br>\r\nWe use cookies for a variety of reasons detailed below. Unfortunately is most cases there are no industry standard options for disabling cookies without completely disabling the functionality and features they add to this site. It is recommended that you leave on all cookies if you are not sure whether you need them or not in case they are used to provide a service that you use.<br>\r\n<h2>Disabling Cookies</h2><br>\r\nYou can prevent the setting of cookies by adjusting the settings on your browser (see your browser Help for how to do this). Be aware that disabling cookies will affect the functionality of this and many other websites that you visit. Disabling cookies will usually result in also disabling certain functionality and features of the this site. Therefore it is recommended that you do not disable cookies.<br>\r\n<h2>The Cookies We Set</h2><br>\r\n<br>\r\n<br>\r\n<br>\r\n<h2>Third Party Cookies</h2><br>\r\nIn some special cases we also use cookies provided by trusted third parties. The following section details which third party cookies you might encounter through this site.<br>\r\n<br>\r\nThis site uses Google Analytics which is one of the most widespread and trusted analytics solution on the web for helping us to understand how you use the site and ways that we can improve your experience. These cookies may track things such as how long you spend on the site and the pages that you visit so we can continue to produce engaging content.<br>\r\n<br>\r\nFor more information on Google Analytics cookies, see the <a href=\"https://developers.google.com/analytics/resources/concepts/gaConceptsCookies\" target=\"_blank\" data-saferedirecturl=\"https://www.google.com/url?hl=nl&q=https://developers.google.com/analytics/resources/concepts/gaConceptsCookies&source=gmail&ust=1463665400434000&usg=AFQjCNEvqvyK0Tj3Rhhs-GhhfBmK93bSFQ\">official Google Analytics page</a>.<br>\r\n<br>\r\n<br>\r\n<h2>More Information</h2><br>\r\nHopefully that has clarified things for you and as was previously mentioned if there is something that you aren't sure whether you need or not it's usually safer to leave cookies enabled in case it does interact with one of the features you use on our site. However if you are still looking for more information then you can contact us through one of our preferred contact methods.<br>\r\n<br>\r\n<strong>Email:</strong> <a href=\"mailto:sam.vancayseel94@gmail.com\" target=\"_blank\">sam.vancayseel94@gmail.com</a>"
   },
   "pages": {
     "index.html": {
@@ -39,11 +42,15 @@
             },
             ".mbr-brand__name a": {
               "font-size": "36px"
+            },
+            ".mbr-navbar__hamburger": {
+              "color": "#ffffff"
             }
           },
           "_anchor": "menu-0",
           "_params": {
             "color": "#ffffff",
+            "hamburgerColor": "#ffffff",
             "transparent": false,
             "sticky": true,
             "collapsed": false,
@@ -92,6 +99,8 @@
           "_anchor": "content5-7",
           "_params": {
             "showCaption": true,
+            "paddingTop": 3,
+            "paddingBottom": 3,
             "showTitle": true,
             "showText": true,
             "showButton": false,
@@ -127,6 +136,8 @@
           },
           "_anchor": "features1-27",
           "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
             "bgImageRadio": false,
             "parallax": true,
             "bgImage": "images/bg3.jpg",
@@ -265,6 +276,8 @@
           },
           "_anchor": "features1-28",
           "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
             "bgImageRadio": false,
             "parallax": true,
             "bgImage": "images/bg3.jpg",
@@ -407,6 +420,8 @@
           },
           "_anchor": "features1-7",
           "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
             "bgImageRadio": false,
             "parallax": true,
             "bgImage": "images/bg3.jpg",
@@ -541,6 +556,8 @@
           "_name": "features1",
           "_anchor": "features1-9",
           "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
             "bgImageRadio": false,
             "parallax": true,
             "bgImage": "images/bg3.jpg",
@@ -680,6 +697,8 @@
           },
           "_anchor": "footer1-25",
           "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
             "bgImageRadio": false,
             "parallax": true,
             "bgImage": "images/bg3.jpg",
@@ -713,15 +732,17 @@
           "_name": "msg-box4",
           "_anchor": "msg-box4-27",
           "_params": {
-            "bgVideoRadio": false,
-            "bgVideo": {
-              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
+            "paddingTop": 3,
+            "paddingBottom": 3,
             "bgImageRadio": false,
             "parallax": true,
             "bgImage": "images/bg3.jpg",
             "bgColor": "#000000",
             "bgColorRadio": true,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
             "overlay": false,
             "overlayOpacity": 0.5,
             "overlayColor": "#222",
@@ -790,6 +811,7 @@
           "_anchor": "menu-10",
           "_params": {
             "color": "#ffffff",
+            "hamburgerColor": "#ffffff",
             "transparent": false,
             "sticky": true,
             "collapsed": false,
@@ -858,6 +880,8 @@
           "_anchor": "content5-12",
           "_params": {
             "showCaption": true,
+            "paddingTop": 3,
+            "paddingBottom": 3,
             "showTitle": true,
             "showText": true,
             "showButton": false,
@@ -891,6 +915,8 @@
           },
           "_params": {
             "autoplay": true,
+            "paddingTop": 3,
+            "paddingBottom": 3,
             "slides": [
               {
                 "active": true,
@@ -924,7 +950,8 @@
               }
             ],
             "fullScreen": true,
-            "bgColor": "#ffffff"
+            "bgColor": "#ffffff",
+            "showBullets": true
           },
           "_anchor": "slider-13",
           "articleLayout": false
@@ -932,6 +959,8 @@
         {
           "_name": "gallery1",
           "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
             "images": [
               {
                 "thumb": "@PROJECT_PATH@/assets/images/12540927-10207353963823084-5755405463897441764-n-706x960-13-706x960-14.jpg",
@@ -954,6 +983,7 @@
                 "active": false
               }
             ],
+            "showText": false,
             "bgColor": "#efefef",
             "fullWidth": false,
             "noGutter": true
@@ -976,6 +1006,8 @@
           },
           "_anchor": "contacts1-15",
           "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
             "bgImageRadio": false,
             "parallax": true,
             "bgImage": "images/bg3.jpg",
@@ -1010,6 +1042,8 @@
           },
           "_anchor": "features1-16",
           "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
             "bgImageRadio": false,
             "parallax": true,
             "bgImage": "images/bg3.jpg",
@@ -1144,6 +1178,8 @@
           "_name": "features1",
           "_anchor": "features1-17",
           "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
             "bgImageRadio": false,
             "parallax": true,
             "bgImage": "images/bg3.jpg",
@@ -1321,6 +1357,7 @@
           "_anchor": "menu-45",
           "_params": {
             "color": "#ffffff",
+            "hamburgerColor": "#ffffff",
             "transparent": false,
             "sticky": true,
             "collapsed": false,
@@ -1353,6 +1390,8 @@
           },
           "_anchor": "footer1-53",
           "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
             "bgImageRadio": false,
             "parallax": true,
             "bgImage": "images/bg3.jpg",
@@ -1367,6 +1406,8 @@
         {
           "_name": "gallery1",
           "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
             "images": [
               {
                 "thumb": "@PROJECT_PATH@/assets/images/11068072-10206644709747573-8310500392670535971-o-1024x1362-22-1024x1362-86.jpg",
@@ -1394,6 +1435,7 @@
                 "active": true
               }
             ],
+            "showText": false,
             "bgColor": "#ffffff",
             "fullWidth": true,
             "noGutter": false
@@ -1436,6 +1478,7 @@
           "_anchor": "menu-55",
           "_params": {
             "color": "#ffffff",
+            "hamburgerColor": "#ffffff",
             "transparent": false,
             "sticky": true,
             "collapsed": false,
@@ -1468,6 +1511,8 @@
           },
           "_anchor": "footer1-56",
           "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
             "bgImageRadio": false,
             "parallax": true,
             "bgImage": "images/bg3.jpg",
@@ -1482,6 +1527,8 @@
         {
           "_name": "gallery1",
           "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
             "images": [
               {
                 "thumb": "@PROJECT_PATH@/assets/images/11046200-10206651304072427-2288509525872056853-o-2048x1369-45-2000x1337-4.jpg",
@@ -1519,6 +1566,7 @@
                 "active": true
               }
             ],
+            "showText": false,
             "bgColor": "#ffffff",
             "fullWidth": true,
             "noGutter": false
@@ -1561,6 +1609,7 @@
           "_anchor": "menu-58",
           "_params": {
             "color": "#ffffff",
+            "hamburgerColor": "#ffffff",
             "transparent": false,
             "sticky": true,
             "collapsed": false,
@@ -1593,6 +1642,8 @@
           },
           "_anchor": "footer1-59",
           "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
             "bgImageRadio": false,
             "parallax": true,
             "bgImage": "images/bg3.jpg",
@@ -1607,6 +1658,8 @@
         {
           "_name": "gallery1",
           "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
             "images": [
               {
                 "thumb": "@PROJECT_PATH@/assets/images/3676029-orig-596x800-2-596x800-12.jpg",
@@ -1649,6 +1702,7 @@
                 "active": true
               }
             ],
+            "showText": false,
             "bgColor": "#ffffff",
             "fullWidth": true,
             "noGutter": false
